@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: beige;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 10px;
+  left: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  gap: 55px;
+  z-index: 2;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 10px;
+}
+
+nav a:hover {
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+
+.logo-text {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.top-content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.back-to-top {
+  height: 25px;
+  width: 25px;
+  background-image: url("https://img.icons8.com/ios-filled/50/FFFFFF/circled-up.png");
+  background-size: cover;
+  background-position: center;
+  border: none;
+}
+
+.back-to-top:hover {
+  background-image: url("https://img.icons8.com/ios-filled/50/FAB005/circled-up.png");
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.sub-content {
+  height: 100svh;
+  position: relative;
+}
+
+.abs-wrapper {
+  position: absolute;
+  top: 250px;
+  left: 50px;
+}
+
+.sub-content button {
+  background-color: transparent;
+  border: 2px solid beige;
+  width: 200px;
+  height: 50px;
+  padding-left: 20px;
+  text-align: left;
+}
+.sub-content button:hover {
+  background-color: beige;
+  color: black;
+}
+
+footer {
+  background-color: slategray;
+  padding-top: 10px;
+  width: 100%;
+  margin: 0;
+  height: 15svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#footy {
+  position: fixed;
+  top: 5px;
+  left: 55%;
+  height: 100px;
+  width: 45%;
+  margin: 0;
+  padding: 0;
+}
+
+#soundcloud-player {
+  height: 100px;
+  width: 100%;
+  max-width: 100%;
+  opacity: 0.7;
+}
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+/* CONTENT CSS */
+
+#about {
+  background-image: url("https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#tickets {
+  background-image: url("https://images.pexels.com/photos/1146134/pexels-photo-1146134.jpeg?cs=srgb&dl=pexels-felixmittermeier-1146134.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#rockets {
+  background-image: url("https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?cs=srgb&dl=pexels-krisof-1252890.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#pricing {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/734/254/409/sky-purple-atmosphere-galaxy-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
